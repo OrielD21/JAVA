@@ -29,7 +29,8 @@ public class Palindrome {
 
     public static char[] decompose(String word, int nChar){
         //String decomposeWord = "";
-        int i = 0,  add = 0;
+        int i, add;
+        i = add = 0;
         char[] letters = new char[nChar];
 
 
